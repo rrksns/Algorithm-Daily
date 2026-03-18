@@ -11,3 +11,5 @@ for i in range(1, N + 1):
         print(" " * (N - i), "*", sep="")
     else:  # 나머지 라인 일때
         print(" " * (N - i), "*", " " * (2 * i - 3), "*", sep="")
+
+
