@@ -9,7 +9,7 @@ g = [
     [] for _ in range(n + 1)
 ]  # 정점은 n개이나, 인덱스 숫자번호를 맞추기 위해 0번을 만들어 1부터 시작하도록 만듦
 
-print("넣을 빈 리스트 : ", g)
+# print("넣을 빈 리스트 : ", g)
 
 for _ in range(m):
     a, b = map(int, input().split())  # 간선
@@ -20,7 +20,7 @@ for _ in range(m):
 for i in g:
     i.sort()  # 탐색 순서 정렬
 
-print("리스트 차례대로 정리 : ", g)
+# print("리스트 차례대로 정리 : ", g)
 
 
 def dfs(v):  # dfs함수
